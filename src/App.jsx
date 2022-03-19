@@ -19,18 +19,18 @@ function App(props) {
   }
 
   return (
-    <div className="App" style={{display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column", padding:5}}  >
+    <div className="App" style={{display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column", padding:5}}>
 
     {on===false ?     <div>
      <h1>Welcome to Weather PRO website.</h1>
       <form action="" onSubmit={Login}>
-    <input type="password" ref={inputCode} placeholder={"please input: 15032022"}/>
+    <input type="password" ref={inputCode} placeholder={"please input: 1111"}/>
       <button >login</button>
     </form>
      </div> : ""}
 
 
-    {login==='15032022' ? 
+    {login==='1111' ? 
 
     <div style={{width:"100%", height:"100vh", background:"rgba(255, 255, 255, 0.25)"}}>
       <Navigation />

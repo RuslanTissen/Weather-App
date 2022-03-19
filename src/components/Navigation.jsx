@@ -4,7 +4,7 @@ import {
   Container,
   Nav
 } from "react-bootstrap";
-import logo from "./logo-opacity.png"
+import logo from "./assets/logo-opacity.png"
 
 function Navigation() {
   return (

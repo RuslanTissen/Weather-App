@@ -8,12 +8,11 @@ body {
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     // background: radial-gradient(circle at 10% 20%, rgba(91, 172, 254, 0.247) 0%, rgba(91, 224, 254, 0.26) 47.2%, rgba(45, 151, 221, 0.61) 49%);
-    background-image: url(../public/bg1.jpg);
+    background-image: url(../src/components/assets/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
   
-
     .App {
       width: 100%;
       height: 100vh;
@@ -26,7 +25,6 @@ body {
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
       background: radial-gradient(circle at 10% 20%, rgba(0, 52, 89, 0.863) 0%, rgb(1, 148, 206) 90%);
     }
-
       a{
           text-decoration: none;
           font-weight: bold;
@@ -36,7 +34,6 @@ body {
        
          &:hover{
          color: #fdb44b;
-            
           }
       }
       main {
@@ -74,8 +71,6 @@ body {
     }
   }
 
-
-
 .inputButton{
   max-width: 100%;
   margin: 3vh 0;
@@ -83,8 +78,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-
 
 input{
   padding: 10px;
@@ -105,11 +98,9 @@ button{
   color: white;
 }
 
-
 button:hover{
   font-weight: bold;
 }
-
 
 // Clouds animation
 
@@ -124,7 +115,6 @@ button:hover{
   animation-direction: alternate;
   overflow: hidden;
 }
-
 
 @keyframes cloudMove {
   from {
